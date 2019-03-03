@@ -5,7 +5,7 @@ a
 a:hover,
 a:active
 {
-  color: blue;
+  color: rgb(79, 79, 255);
 }
 a.btn
 {
@@ -14,6 +14,6 @@ a.btn
 a.btn:hover,
 a.btn:active
 {
-  background-color: blue;
-  color: black;
+  background-color: rgb(79, 79, 255);
+  color: white;
 }
