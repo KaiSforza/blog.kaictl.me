@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/kaictl
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://blog.kaictl.me
+  * I am kaictl (https://keybase.io/kaictl) on keybase.
+  * I have a public key ASCkDNcHilrVCByoTzBO0apOsYjOqgLnqgeZ65Tm3hcQdgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120a40cd7078a5ad5081ca84f304ed1aa4eb188ceaa02e7aa0799eb94e6de1710760a",
+      "host": "keybase.io",
+      "kid": "0120a40cd7078a5ad5081ca84f304ed1aa4eb188ceaa02e7aa0799eb94e6de1710760a",
+      "uid": "fae801518205ec5f8977ca81ce8b9919",
+      "username": "kaictl"
+    },
+    "merkle_root": {
+      "ctime": 1551653164,
+      "hash": "c7d705bb7274bd1ddaf55f71234a5a30e7bc6ee1984e1984c698f9fb4f55e45ec5546a6947fe4bfde8948590d7f4aa32c4f094d084ac7bde397cd96ed936089e",
+      "hash_meta": "6239f72627b3b91906d41e96b682604fbf51cc8179630d91b9072839d091bcfa",
+      "seqno": 4868772
+    },
+    "service": {
+      "entropy": "TynWWpj8DZJXBUapmU5h3Yf/",
+      "hostname": "blog.kaictl.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.0.0"
+  },
+  "ctime": 1551653180,
+  "expire_in": 504576000,
+  "prev": "cdecba27037e3782ae916e2c8f9d6655320bff72d4f3042578c6eed16e95ee1a",
+  "seqno": 46,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgpAzXB4pa1QgcqE8wTtGqTrGIzqoC56oHmeuU5t4XEHYKp3BheWxvYWTESpcCLsQgzey6JwN+N4KukW4sj51mVTIL/3LU8wQleMbu0W6V7hrEIAh0+7Y7UsIswrKBu+ILSh8WpimqrdEdIW5xlbBTT4/gAgHCo3NpZ8RAIp8bnkPfkzLWBTzqtOk4FB7bQbk4fRZ4axWYUKaGqQriWG5IlP/hXtOGr4obCbT9Ri8LiNIRO2VAgdRPzT+XA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIMQsgu+n2BVphu7KbXZFoC5uWMy6kiAXp0svh57CjCmMo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kaictl
+
+==================================================================
