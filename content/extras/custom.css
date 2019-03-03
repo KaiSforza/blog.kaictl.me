@@ -1,19 +1,19 @@
 a
 {
-  color: darkgreen;
+  color: darkblue;
 }
 a:hover,
 a:active
 {
-  color: limegreen;
+  color: lightskyblue;
 }
 a.btn
 {
-  background-color: darkgreen;
+  background-color: darkblue;
 }
 a.btn:hover,
 a.btn:active
 {
-  background-color: limegreen;
+  background-color: lightskyblue;
   color: black;
 }
