@@ -35,7 +35,7 @@ EXTRA_PATH_METADATA = {
 }
 
 DEFAULT_PAGINATION = 10
-MARKUP = ('mkd', 'md', )
+MARKUP = ('mkd', )
 CUSTOM_CSS = 'static/custom.css'
 
 # Uncomment following line if you want document-relative URLs when developing
