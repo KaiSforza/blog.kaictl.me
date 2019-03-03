@@ -2,15 +2,15 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'Daniel Wallace'
-SITENAME = 'GTmanfred'
-SITEURL = 'https://blog.gtmanfred.com'
+AUTHOR = 'Kai Sforza'
+SITENAME = 'kaictl'
+SITEURL = 'https://blog.kaictl.me'
 SITELOGO = SITEURL + '/images/profile.png'
 
 PATH = 'content'
 STATIC_PATHS = ['images']
 
-TIMEZONE = 'America/Chicago'
+TIMEZONE = 'America/Denver'
 
 DEFAULT_LANG = 'en'
 LOCALE = 'en_US.utf8'
@@ -41,15 +41,15 @@ CUSTOM_CSS = 'static/custom.css'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-DISQUS_SITENAME = "gtmanfred"
-GOOGLE_ANALYTICS = "UA-42514099-1"
+DISQUS_SITENAME = "kaictl"
+GOOGLE_ANALYTICS = ""
 
 BROWSER_COLOR = '#333'
 
-SOCIAL = (('linkedin', 'https://br.linkedin.com/in/danielwallace90/en'),
-          ('github', 'https://github.com/gtmanfred'),
-          ('twitter', 'https://twitter.com/gtmanfred'),
-          ('reddit', 'https://reddit.com/u/gtmanfred'),
+SOCIAL = (('linkedin', 'https://linkedin.com/in/kaictl'),
+          ('github', 'https://github.com/KaiSforza'),
+          ('twitter', 'https://twitter.com/kaictl'),
+          ('reddit', 'https://reddit.com/u/kaictl'),
           ('rss', '/feeds/all.atom.xml'))
 
 MAIN_MENU = True
