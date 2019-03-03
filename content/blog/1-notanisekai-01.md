@@ -1,13 +1,13 @@
-# Not an Isekai
-
-## Chapter 1
-
 Title: Not an Isekai Chapter 1
 Date: 2019-03-03 14:00
 Category: Writing
 Tags: writing, draft
 Slug: notanisekaic01
 Summary: The Beginning
+
+# Not an Isekai
+
+## Chapter 1
 
 > This is a draft, it'll probably change.
 
