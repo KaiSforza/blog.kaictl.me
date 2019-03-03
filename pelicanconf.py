@@ -35,7 +35,7 @@ EXTRA_PATH_METADATA = {
 }
 
 DEFAULT_PAGINATION = 10
-MARKUP = ('mkd', )
+MARKUP = ('mkd', 'md', )
 CUSTOM_CSS = 'static/custom.css'
 
 # Uncomment following line if you want document-relative URLs when developing
@@ -48,8 +48,9 @@ BROWSER_COLOR = '#333'
 
 SOCIAL = (('linkedin', 'https://linkedin.com/in/kaictl'),
           ('github', 'https://github.com/KaiSforza'),
+          ('gitlab', 'https://gitlab.kaictl.me/kaictl')
           ('twitter', 'https://twitter.com/kaictl'),
           ('reddit', 'https://reddit.com/u/kaictl'),
-          ('rss', '/feeds/all.atom.xml'))
+          )
 
 MAIN_MENU = True
