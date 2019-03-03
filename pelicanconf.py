@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Kai Sforza'
 SITENAME = 'kaictl'
-SITEURL = 'https://blog.kaictl.me'
+SITEURL = 'http://blog.kaictl.me'
 SITELOGO = SITEURL + '/images/profile.png'
 
 PATH = 'content'
