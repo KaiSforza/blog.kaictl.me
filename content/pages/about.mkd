@@ -1,10 +1,10 @@
+# Kai Sforza
+
 Title: About
 Date: 2019-03-03 13:10
 Category: About
 Slug: about
 Summary:  A quick summary of me
-
-#Kai Sforza
 
 I've been using linux since about 2011, working on `systemd`, `pacman`, and other projects.
 

@@ -48,7 +48,7 @@ BROWSER_COLOR = '#333'
 
 SOCIAL = (('linkedin', 'https://linkedin.com/in/kaictl'),
           ('github', 'https://github.com/KaiSforza'),
-          ('gitlab', 'https://gitlab.kaictl.me/kaictl')
+          ('gitlab', 'https://gitlab.kaictl.me/kaictl'),
           ('twitter', 'https://twitter.com/kaictl'),
           ('reddit', 'https://reddit.com/u/kaictl'),
           )
