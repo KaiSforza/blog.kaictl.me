@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Kai Sforza'
 SITENAME = 'kaictl'
-SITEURL = 'http://blog.kaictl.me'
+SITEURL = 'https://blog.kaictl.me'
 SITELOGO = SITEURL + '/images/profile.png'
 
 PATH = 'content'
@@ -18,7 +18,7 @@ LOCALE = 'en_US.utf8'
 THEME = "themes/flex"
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGIN_PATHS = ['plugins']
-PLUGINS = ['i18n_subsites', 'post_stats']
+PLUGINS = ['i18n_subsites', 'post_stats', 'render_math']
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
