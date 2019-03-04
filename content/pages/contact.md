@@ -4,7 +4,7 @@ Category: About
 Slug: contact
 Summary: How to get in contact with me
 
-# Contact
+# How to Get in Touch
 
 To contact me, please use Twitter to send me a message.
 
