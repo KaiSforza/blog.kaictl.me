@@ -32,6 +32,7 @@ EXTRA_PATH_METADATA = {
     'extras/robots.txt': {'path': 'robots.txt'},
     'extras/keybase.txt': {'path': 'keybase.txt'},
     'extras/custom.css': {'path': 'static/custom.css'},
+    'images/favicon.ico': {'path': 'favicon.ico'},
 }
 
 DEFAULT_PAGINATION = 10
