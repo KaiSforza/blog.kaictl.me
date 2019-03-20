@@ -4,8 +4,8 @@ Category: About
 Slug: contact
 Summary: How to get in contact with me
 
-# How to Get in Touch
+# Kai Sforza
 
-To contact me, please use Twitter to send me a message.
+To contact me, please email me at `kai [at] kaictl.me` or message me using one of the services listed to the left.
 
 Thanks!

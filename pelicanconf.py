@@ -47,9 +47,10 @@ GOOGLE_ANALYTICS = "UA-42514434-2"
 
 BROWSER_COLOR = '#333'
 
-SOCIAL = (('linkedin', 'https://linkedin.com/in/kaictl'),
+SOCIAL = (
           ('github', 'https://github.com/KaiSforza'),
-          ('gitlab', 'https://gitlab.kaictl.me/kaictl'),
+          ('gitlab', 'https://gitlab.com/KaiSforza'),
+          ('linkedin', 'https://linkedin.com/in/kaictl'),
           ('twitter', 'https://twitter.com/kaictl'),
           ('reddit', 'https://reddit.com/u/kaictl'),
           )
