@@ -11,3 +11,7 @@ I've been using linux since about 2011, working on `systemd`, `pacman`, and othe
 Video games are also a huge interest of mine, especially Dota 2.
 
 I'll probably post random video game reviews, writings, tech stuff, and other things.
+
+--- 
+
+The views expressed here are my own, not that of my current or previous employers.
