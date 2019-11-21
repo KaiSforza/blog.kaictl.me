@@ -5,7 +5,7 @@ image: python:alpine
 pages:
   script:
     - pip install -r requirements.txt
-    - pelican content -vvv -o output -s pelicanconf.py
+    - pelican content -vvv -o public -s pelicanconf.py
   artifacts:
     paths:
-      - output/
+      - public/
