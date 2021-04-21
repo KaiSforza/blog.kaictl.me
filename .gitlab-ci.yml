@@ -2,9 +2,11 @@
 # Full project: https://gitlab.com/pages/pelican
 image: python:3.9-alpine
 
+variables:
+  GIT_SUBMODULE_STRATEGY: normal
+
 pages:
   script:
-    - git submodule update --init
     - pip install pipenv
     - pipenv install --dev
     - pipenv run pelican content -vvv -o public -s pelicanconf.py
