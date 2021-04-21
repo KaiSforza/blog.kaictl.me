@@ -4,8 +4,10 @@ image: python:3.9-alpine
 
 pages:
   script:
-    - pip install -r requirements.txt
-    - pelican content -vvv -o public -s pelicanconf.py
+    - git submodule update --init
+    - pip install pipenv
+    - pipenv install --dev
+    - pipenv run pelican content -vvv -o public -s pelicanconf.py
   artifacts:
     paths:
       - public/
