@@ -13,3 +13,6 @@ pages:
   artifacts:
     paths:
       - public/
+  environment:
+    name: prod
+    url: $CI_PAGES_URL
