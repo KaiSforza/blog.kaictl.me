@@ -1,21 +1,29 @@
-# This file is a template, and might need editing before it works on your project.
-# Full project: https://gitlab.com/pages/pelican
+# You can override the included template(s) by including variable overrides
+# SAST customization: https://docs.gitlab.com/ee/user/application_security/sast/#customizing-the-sast-settings
+# Secret Detection customization: https://docs.gitlab.com/ee/user/application_security/secret_detection/#customizing-settings
+# Note that environment variables can be set in several places
+# See https://docs.gitlab.com/ee/ci/variables/#priority-of-environment-variables
 image: python:3.9-alpine
-
 variables:
   GIT_SUBMODULE_STRATEGY: normal
-  
 include:
-  - template: Dependency-Scanning.gitlab-ci.yml
+- template: Dependency-Scanning.gitlab-ci.yml
+- template: Security/SAST.gitlab-ci.yml
 
 pages:
+  stage: build
   script:
-    - pip install pipenv
-    - pipenv install --dev
-    - pipenv run pelican content -vvv -o public -s pelicanconf.py
+  - pip install pipenv
+  - pipenv install --dev
+  - pipenv run pelican content -vvv -o public -s pelicanconf.py
   artifacts:
     paths:
-      - public/
+    - public/
   environment:
     name: prod
-    url: $CI_PAGES_URL
+    url: "$CI_PAGES_URL"
+stages:
+- test
+- build
+sast:
+  stage: test
