@@ -4,6 +4,9 @@ image: python:3.9-alpine
 
 variables:
   GIT_SUBMODULE_STRATEGY: normal
+  
+include:
+  - template: Dependency-Scanning.gitlab-ci.yml
 
 pages:
   script:
