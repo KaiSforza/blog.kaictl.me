@@ -1,4 +1,6 @@
 target/
 result
-.direnv
+.devshell/
+.direnv/
 .pre-commit-config.yaml
+public/
