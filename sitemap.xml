@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    
+        <url>
+            <loc>https://blog.kaictl.me/about/</loc>
+            
+        </url>
+    
+        <url>
+            <loc>https://blog.kaictl.me/journal/</loc>
+            
+        </url>
+    
+    
+    
+        
+        
+            <url>
+                <loc>https://blog.kaictl.me/blog/nix/</loc>
+                <lastmod>2025-09-12</lastmod>
+            </url>
+        
+    
+</urlset>
