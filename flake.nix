@@ -46,6 +46,9 @@
           devshells = {
             default = import ./nix/devshell.nix { inherit pkgs config; };
           };
+          packages = {
+            inherit (pkgs) zola;
+          };
         };
     };
 }
